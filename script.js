@@ -1,5 +1,10 @@
 function firstChar(text) {
-  // your code here
+  for(var i=0;i<=text.length;i++){
+	  if(text.charat(i)!=" "){
+		  return text.charAt(i);
+	  }
+  }
+	return"";
 }
 
 // Do not change the code below
